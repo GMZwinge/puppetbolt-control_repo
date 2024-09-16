@@ -1,5 +1,4 @@
-*.rb eol=lf
-*.erb eol=lf
-*.pp eol=lf
-*.sh eol=lf
-*.epp eol=lf
+# From [Resolving Git line ending issues in containers (resulting in many modified files)](https://code.visualstudio.com/docs/devcontainers/tips-and-tricks#_resolving-git-line-ending-issues-in-containers-resulting-in-many-modified-files)
+* text=auto eol=lf
+*.{cmd,[cC][mM][dD]} text eol=crlf
+*.{bat,[bB][aA][tT]} text eol=crlf
